@@ -3,7 +3,6 @@ import Header from './Header';
 import Main from './Main';
 import Footer from './Footer';
 import data from './data/data.json';
-import Modal from 'react-bootstrap/Modal';
 import SelectedBeast from './SelectedBeast';
 
 class App extends React.Component {
