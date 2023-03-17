@@ -5,7 +5,7 @@ class SelectedBeast extends React.Component {
   render() {
     return (
       <>
-           <Modal show={this.props.showModal} onHide={this.props.handleCloseModal}>
+        <Modal show={this.props.showModal} onHide={this.props.handleCloseModal}>
           <Modal.Header closeButton> <Modal.Title> {this.props.selectedBeastDsc}</Modal.Title>
           </Modal.Header>
           <img src={this.props.selectedBeast} alt='' ></img>
@@ -14,4 +14,5 @@ class SelectedBeast extends React.Component {
     )
   }
 }
+
 export default SelectedBeast;
